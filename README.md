@@ -5,22 +5,25 @@ See [coBlue](https://github.com/cocoahuke/coBlue) for details
 [![Contact](https://img.shields.io/badge/contact-@cocoahuke-fbb52b.svg?style=flat)](https://twitter.com/cocoahuke) [![release](https://img.shields.io/badge/release-ipa-green.svg?style=flat)](https://github.com/cocoahuke/coBlue-iOS/releases/tag/1.0) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/cocoahuke/coblue-control/blob/master/LICENSE)
 
 ## How to use
->**Download** it in the [release](https://github.com/cocoahuke/coBlue-iOS/releases/tag/1.0) page
-
+>**Download** it in the [release](https://github.com/cocoahuke/coBlue-iOS/releases/tag/1.0) page  
 >Use the [Impactor](http://www.cydiaimpactor.com/) to **install** the ipa as application on your iPhone. Impactor<img src="IMG5.PNG" height=20/> &nbsp; is a super nice tool for signing Ipa files, and the author is [saurik](https://twitter.com/saurik?lang=en)
 
+&nbsp;
 >**Open** the app then, the icon of the app looks like this
 <br> <img src="IMG4.PNG" height="80"/>
 
 >The first time you open the App need to set up device Name & verify Key, Enter `š` to open the setting view
 <img src="IMG1.PNG" height=160/>
 
+&nbsp;
 >**Set Device name**, Device name is the name of the [coBlue](https://github.com/cocoahuke/coBlue) BLE Peripherals which listed when scanning, default name is orange, you can specify by `-name` in [coBlue](https://github.com/cocoahuke/coBlue)
 <img src="IMG2.PNG" height=30/>
 
+&nbsp;
 >**Set verify key**, it will send verify key immediately after the connection establish, set key by `-verifyw` in [coBlue](https://github.com/cocoahuke/coBlue)
 <img src="IMG3.PNG" height=30/>
 
+&nbsp;
 >After all set done, Tap `Apply` and restart the app, those setting will be saved
 
 ##if you want compile your own
