@@ -6,6 +6,7 @@ See [coBlue](https://github.com/cocoahuke/coBlue) for details
 
 ## How to use
 >**Download** it in the [release](https://github.com/cocoahuke/coBlue-iOS/releases/tag/1.0) page  
+
 >Use the [Impactor](http://www.cydiaimpactor.com/) to **install** the ipa as application on your iPhone. Impactor<img src="IMG5.PNG" height=20/> &nbsp; is a super nice tool for signing Ipa files, and the author is [saurik](https://twitter.com/saurik?lang=en)
 
 &nbsp;
