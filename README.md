@@ -12,13 +12,13 @@ See [coBlue](https://github.com/cocoahuke/coBlue) for details
 <br> <img src="IMG4.PNG" height="80"/>
 
 >The first time you open the App need to set up device Name & verify Key, Enter `š` to open the setting view
-![PIC](IMG1.PNG)
+<img src="IMG1.png" height=160/>
 
 >**Set Device name**, Device name is the name of the [coBlue](https://github.com/cocoahuke/coBlue) BLE Peripherals which listed when scanning, default name is orange, you can specify by `-name` in [coBlue](https://github.com/cocoahuke/coBlue)
-![PIC](IMG2.PNG)
+<img src="IMG2.png" height=30/>
 
 >**Set verify key**, it will send verify key immediately after the connection establish, set key by `-verifyw` in [coBlue](https://github.com/cocoahuke/coBlue)
-![PIC](IMG3.PNG)
+<img src="IMG3.png" height=30/>
 
 >After all set done, Tap `Apply` and restart the app, those setting will be saved
 
@@ -28,7 +28,7 @@ tested in iOS10.2
 recommand just downloaded in the [release](https://github.com/cocoahuke/coBlue-iOS/releases/tag/1.0) page
 
 ## Demo
-![PIC](IMG6.gif)
+<img src="IMG6.gif" height=350/>
 
 ## License
 [MIT](https://github.com/cocoahuke/coBlue/blob/master/LICENSE)
