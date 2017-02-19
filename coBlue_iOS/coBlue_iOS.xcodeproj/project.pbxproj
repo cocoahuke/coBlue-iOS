@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF034E731E5322FE00305992 /* coblue_control.m in Sources */ = {isa = PBXBuildFile; fileRef = AF034E721E5322FE00305992 /* coblue_control.m */; };
+		AF381D811E52E9CC009836F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF381D801E52E9CC009836F0 /* main.m */; };
+		AF381D841E52E9CC009836F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF381D831E52E9CC009836F0 /* AppDelegate.m */; };
+		AF381D871E52E9CC009836F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF381D861E52E9CC009836F0 /* ViewController.m */; };
+		AF381D8A1E52E9CC009836F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF381D881E52E9CC009836F0 /* Main.storyboard */; };
+		AF381D8C1E52E9CC009836F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF381D8B1E52E9CC009836F0 /* Images.xcassets */; };
+		AF381D8F1E52E9CC009836F0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF381D8D1E52E9CC009836F0 /* LaunchScreen.xib */; };
+		AF381D9B1E52E9CC009836F0 /* coBlue_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF381D9A1E52E9CC009836F0 /* coBlue_iOSTests.m */; };
+		AFAD23431E570C3E00537ABD /* coblue_Icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFAD23421E570C3E00537ABD /* coblue_Icon@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF381D951E52E9CC009836F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF381D731E52E9CC009836F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF381D7A1E52E9CC009836F0;
+			remoteInfo = coBlue_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF034E711E5322FE00305992 /* coblue_control.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coblue_control.h; sourceTree = "<group>"; };
+		AF034E721E5322FE00305992 /* coblue_control.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = coblue_control.m; sourceTree = "<group>"; };
+		AF381D7B1E52E9CC009836F0 /* coBlue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coBlue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF381D7F1E52E9CC009836F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF381D801E52E9CC009836F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF381D821E52E9CC009836F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF381D831E52E9CC009836F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AF381D851E52E9CC009836F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AF381D861E52E9CC009836F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AF381D891E52E9CC009836F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF381D8B1E52E9CC009836F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AF381D8E1E52E9CC009836F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AF381D941E52E9CC009836F0 /* coBlue_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coBlue_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF381D991E52E9CC009836F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF381D9A1E52E9CC009836F0 /* coBlue_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = coBlue_iOSTests.m; sourceTree = "<group>"; };
+		AFAD23421E570C3E00537ABD /* coblue_Icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coblue_Icon@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF381D781E52E9CC009836F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF381D911E52E9CC009836F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF381D721E52E9CC009836F0 = {
+			isa = PBXGroup;
+			children = (
+				AF381D7D1E52E9CC009836F0 /* coBlue_iOS */,
+				AF381D971E52E9CC009836F0 /* coBlue_iOSTests */,
+				AF381D7C1E52E9CC009836F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF381D7C1E52E9CC009836F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF381D7B1E52E9CC009836F0 /* coBlue.app */,
+				AF381D941E52E9CC009836F0 /* coBlue_iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF381D7D1E52E9CC009836F0 /* coBlue_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AF381D821E52E9CC009836F0 /* AppDelegate.h */,
+				AF381D831E52E9CC009836F0 /* AppDelegate.m */,
+				AF381D851E52E9CC009836F0 /* ViewController.h */,
+				AF381D861E52E9CC009836F0 /* ViewController.m */,
+				AF034E711E5322FE00305992 /* coblue_control.h */,
+				AF034E721E5322FE00305992 /* coblue_control.m */,
+				AF381D881E52E9CC009836F0 /* Main.storyboard */,
+				AF381D8B1E52E9CC009836F0 /* Images.xcassets */,
+				AF381D8D1E52E9CC009836F0 /* LaunchScreen.xib */,
+				AF381D7E1E52E9CC009836F0 /* Supporting Files */,
+			);
+			path = coBlue_iOS;
+			sourceTree = "<group>";
+		};
+		AF381D7E1E52E9CC009836F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFAD23421E570C3E00537ABD /* coblue_Icon@3x.png */,
+				AF381D7F1E52E9CC009836F0 /* Info.plist */,
+				AF381D801E52E9CC009836F0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF381D971E52E9CC009836F0 /* coBlue_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF381D9A1E52E9CC009836F0 /* coBlue_iOSTests.m */,
+				AF381D981E52E9CC009836F0 /* Supporting Files */,
+			);
+			path = coBlue_iOSTests;
+			sourceTree = "<group>";
+		};
+		AF381D981E52E9CC009836F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF381D991E52E9CC009836F0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF381D7A1E52E9CC009836F0 /* coBlue_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF381D9E1E52E9CC009836F0 /* Build configuration list for PBXNativeTarget "coBlue_iOS" */;
+			buildPhases = (
+				AF381D771E52E9CC009836F0 /* Sources */,
+				AF381D781E52E9CC009836F0 /* Frameworks */,
+				AF381D791E52E9CC009836F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = coBlue_iOS;
+			productName = coBlue_iOS;
+			productReference = AF381D7B1E52E9CC009836F0 /* coBlue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF381D931E52E9CC009836F0 /* coBlue_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF381DA11E52E9CC009836F0 /* Build configuration list for PBXNativeTarget "coBlue_iOSTests" */;
+			buildPhases = (
+				AF381D901E52E9CC009836F0 /* Sources */,
+				AF381D911E52E9CC009836F0 /* Frameworks */,
+				AF381D921E52E9CC009836F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF381D961E52E9CC009836F0 /* PBXTargetDependency */,
+			);
+			name = coBlue_iOSTests;
+			productName = coBlue_iOSTests;
+			productReference = AF381D941E52E9CC009836F0 /* coBlue_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF381D731E52E9CC009836F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = com.cocoahuke;
+				TargetAttributes = {
+					AF381D7A1E52E9CC009836F0 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = VTQEGFQ4RR;
+						ProvisioningStyle = Automatic;
+					};
+					AF381D931E52E9CC009836F0 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = AF381D7A1E52E9CC009836F0;
+					};
+				};
+			};
+			buildConfigurationList = AF381D761E52E9CC009836F0 /* Build configuration list for PBXProject "coBlue_iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF381D721E52E9CC009836F0;
+			productRefGroup = AF381D7C1E52E9CC009836F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF381D7A1E52E9CC009836F0 /* coBlue_iOS */,
+				AF381D931E52E9CC009836F0 /* coBlue_iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF381D791E52E9CC009836F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF381D8A1E52E9CC009836F0 /* Main.storyboard in Resources */,
+				AF381D8F1E52E9CC009836F0 /* LaunchScreen.xib in Resources */,
+				AFAD23431E570C3E00537ABD /* coblue_Icon@3x.png in Resources */,
+				AF381D8C1E52E9CC009836F0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF381D921E52E9CC009836F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF381D771E52E9CC009836F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF381D871E52E9CC009836F0 /* ViewController.m in Sources */,
+				AF034E731E5322FE00305992 /* coblue_control.m in Sources */,
+				AF381D841E52E9CC009836F0 /* AppDelegate.m in Sources */,
+				AF381D811E52E9CC009836F0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF381D901E52E9CC009836F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF381D9B1E52E9CC009836F0 /* coBlue_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF381D961E52E9CC009836F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF381D7A1E52E9CC009836F0 /* coBlue_iOS */;
+			targetProxy = AF381D951E52E9CC009836F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF381D881E52E9CC009836F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF381D891E52E9CC009836F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF381D8D1E52E9CC009836F0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF381D8E1E52E9CC009836F0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF381D9C1E52E9CC009836F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AF381D9D1E52E9CC009836F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF381D9F1E52E9CC009836F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = CPNGD9PSUF;
+				INFOPLIST_FILE = coBlue_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoahuke.coBlue;
+				PRODUCT_NAME = coBlue;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AF381DA01E52E9CC009836F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = CPNGD9PSUF;
+				INFOPLIST_FILE = coBlue_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoahuke.coBlue;
+				PRODUCT_NAME = coBlue;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		AF381DA21E52E9CC009836F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = coBlue_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coBlue.app/coBlue";
+			};
+			name = Debug;
+		};
+		AF381DA31E52E9CC009836F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = coBlue_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coBlue.app/coBlue";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF381D761E52E9CC009836F0 /* Build configuration list for PBXProject "coBlue_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF381D9C1E52E9CC009836F0 /* Debug */,
+				AF381D9D1E52E9CC009836F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF381D9E1E52E9CC009836F0 /* Build configuration list for PBXNativeTarget "coBlue_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF381D9F1E52E9CC009836F0 /* Debug */,
+				AF381DA01E52E9CC009836F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF381DA11E52E9CC009836F0 /* Build configuration list for PBXNativeTarget "coBlue_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF381DA21E52E9CC009836F0 /* Debug */,
+				AF381DA31E52E9CC009836F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF381D731E52E9CC009836F0 /* Project object */;
+}
