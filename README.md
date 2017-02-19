@@ -12,15 +12,15 @@ See [coBlue](https://github.com/cocoahuke/coBlue) for details
 >**Open** the app then, the icon of the app looks like this
 <br> <img src="IMG4.PNG" height="80"/>
 
->The first time you open the App need to set up device Name & verify Key, Enter `š` to open the setting view
+>The first time you open the App need to set up device Name & verify Key, Enter `š` to open the setting view  
 <img src="IMG1.PNG" height=160/>
 
 &nbsp;
->**Set Device name**, Device name is the name of the [coBlue](https://github.com/cocoahuke/coBlue) BLE Peripherals which listed when scanning, default name is orange, you can specify by `-name` in [coBlue](https://github.com/cocoahuke/coBlue)
+>**Set Device name**, Device name is the name of the [coBlue](https://github.com/cocoahuke/coBlue) BLE Peripherals which listed when scanning, default name is orange, you can specify by `-name` in [coBlue](https://github.com/cocoahuke/coBlue)  
 <img src="IMG2.PNG" height=30/>
 
 &nbsp;
->**Set verify key**, it will send verify key immediately after the connection establish, set key by `-verifyw` in [coBlue](https://github.com/cocoahuke/coBlue)
+>**Set verify key**, it will send verify key immediately after the connection establish, set key by `-verifyw` in [coBlue](https://github.com/cocoahuke/coBlue)  
 <img src="IMG3.PNG" height=30/>
 
 &nbsp;
