@@ -2,7 +2,7 @@
 Its an iOS application is used to interact with [coBlue](https://github.com/cocoahuke/coBlue), [coblue-control](https://github.com/cocoahuke/coblue-control) is the similar control program running on Macos  
 See [coBlue](https://github.com/cocoahuke/coBlue) for details
 
-[![Contact](https://img.shields.io/badge/contact-@cocoahuke-fbb52b.svg?style=flat)](https://twitter.com/cocoahuke) [![release](https://img.shields.io/badge/release-ipa-green.svg?style=flat)](https://github.com/cocoahuke/coBlue-iOS/releases/tag/1.0) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/cocoahuke/coblue-control/blob/master/LICENSE) [![paypal](https://img.shields.io/badge/Donate-PayPal-039ce0.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EQDXSYW8Z23UY)
+[![Contact](https://img.shields.io/badge/contact-@cocoahuke-fbb52b.svg?style=flat)](https://twitter.com/cocoahuke) [![release](https://img.shields.io/badge/release-ipa-green.svg?style=flat)](https://github.com/cocoahuke/coBlue-iOS/releases/tag/1.0) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/cocoahuke/coBlue-iOS/blob/master/LICENSE) [![paypal](https://img.shields.io/badge/Donate-PayPal-039ce0.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EQDXSYW8Z23UY)
 
 ## How to use
 >**Download** it in the [release](https://github.com/cocoahuke/coBlue-iOS/releases/tag/1.0) page  
