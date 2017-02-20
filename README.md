@@ -34,6 +34,3 @@ recommand just downloaded in the [release](https://github.com/cocoahuke/coBlue-i
 
 ## Demo
 <img src="IMG6.GIF" height=350/>
-
-## License
-[MIT](https://github.com/cocoahuke/coBlue/blob/master/LICENSE)
